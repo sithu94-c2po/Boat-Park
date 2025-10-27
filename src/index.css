@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 10%;
+  --foreground: 210 40% 98%;
+  --card: 223 47% 8%;
+  --card-foreground: 210 40% 96%;
+  --popover: 223 47% 8%;
+  --popover-foreground: 210 40% 96%;
+  --primary: 190 94% 75%;
+  --primary-foreground: 222 47% 10%;
+  --primary-light: 190 94% 82%;
+  --primary-dark: 190 94% 55%;
+  --secondary: 217 32% 20%;
+  --secondary-foreground: 210 40% 96%;
+  --muted: 217 32% 25%;
+  --muted-foreground: 214 32% 80%;
+  --accent: 191 96% 85%;
+  --accent-foreground: 222 47% 10%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 96%;
+  --border: 217 32% 25%;
+  --input: 217 32% 25%;
+  --ring: 189 93% 70%;
+  --radius: 1.25rem;
+  --sidebar-background: 223 50% 7%;
+  --sidebar-foreground: 214 32% 85%;
+  --sidebar-primary: 190 94% 75%;
+  --sidebar-primary-foreground: 222 47% 10%;
+  --sidebar-accent: 191 96% 85%;
+  --sidebar-accent-foreground: 222 47% 10%;
+  --sidebar-border: 217 32% 25%;
+  --sidebar-ring: 189 93% 70%;
+  --gradient-ocean: linear-gradient(135deg, rgba(56, 189, 248, 0.35), rgba(125, 211, 252, 0.12));
+  --gradient-hero: linear-gradient(160deg, rgba(15, 118, 110, 0.2), rgba(12, 74, 110, 0.05));
+  --gradient-card: linear-gradient(145deg, rgba(30, 64, 175, 0.25), rgba(8, 145, 178, 0.1));
+  --shadow-card: 0 30px 80px -25px rgba(15, 118, 110, 0.35);
+  --shadow-hero: 0 50px 120px -40px rgba(8, 145, 178, 0.35);
+  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+a {
+  @apply transition-colors;
+}
